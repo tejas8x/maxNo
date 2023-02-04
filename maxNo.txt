@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <script>
+ function ShowMaximum()
+ {
+ num1=parseInt(prompt("enter num1"));
+ num2=parseInt(prompt("enter num2"));
+ num3=parseInt(prompt("enter num3"));
+ if(num1>num2 && num1>num3)
+ {
+ alert("maximum: "+num1);
+ console.log(num1);
+ //document.write("maximum of three Number is"+num1);
+ }
+ if(num2>num3)
+ {
+ alert("maximum :"+num2);
+ }
+ else
+ {
+ alert("maximum :"+num3);
+ }
+ }
+ </script>
+</head>
+<body>
+ <script>
+ console.log(Window.Location);
+ document.write("Hello World!");
+ </script>
+ <button type="button" name="btn" onclick="ShowMaximum()">Maximum of 
+three Number</button>
+ 
+</body>
+</html>
